@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.Watchly" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryVariant">#000000</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorOnSurface">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>

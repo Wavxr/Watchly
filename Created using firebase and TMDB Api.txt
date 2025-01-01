@@ -1,0 +1,5 @@
+This project is Watchly, a movie list app that uses the following technologies:
+
+-> The Movie Database API for movie details and library https://developer.themoviedb.org/docs/getting-started
+
+-> Firebase for User Authentication, sessions, and Database

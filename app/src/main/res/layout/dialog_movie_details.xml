@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/movie_details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/movie_details_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating: N/A"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/movie_details_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review: N/A"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/movie_details_date_watched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date Watched: N/A"
+        android:paddingBottom="8dp" />
+</LinearLayout>

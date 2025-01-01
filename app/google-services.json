@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "814456898132",
+    "project_id": "watchly-38202",
+    "storage_bucket": "watchly-38202.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814456898132:android:1954321e109e36c08663c1",
+        "android_client_info": {
+          "package_name": "com.example.watchly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814456898132-lm4smu4ifmm376de86nh8mejufmm5gba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.watchly",
+            "certificate_hash": "7e216e33dbaa37403538e216446fd95f781d29b9"
+          }
+        },
+        {
+          "client_id": "814456898132-e3og2d2l4k1fmak34llfam21k2erjle9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBz9XQIl7AaNVY7ChaosWLMW3FMggOHwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814456898132-e3og2d2l4k1fmak34llfam21k2erjle9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

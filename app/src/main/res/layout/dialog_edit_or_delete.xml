@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/rounded_background"> <!-- Apply rounded background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Radio Group for "Watched" or "To Watch" -->
+        <RadioGroup
+            android:id="@+id/status_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/status_watched"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watched"
+                android:textColor="@color/white"
+                android:buttonTint="@color/yellow"
+                android:checked="true"
+                android:textSize="16sp"
+                android:layout_marginEnd="16dp" />
+
+            <RadioButton
+                android:id="@+id/status_to_watch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Watch"
+                android:textColor="@color/white"
+                android:buttonTint="@color/yellow"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <!-- Movie Rating Input -->
+        <EditText
+            android:id="@+id/edit_movie_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rating"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Movie Review Input -->
+        <EditText
+            android:id="@+id/edit_movie_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Review"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:maxLines="5" />
+
+        <!-- Date Picker -->
+        <DatePicker
+            android:id="@+id/edit_date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_background"
+            android:calendarTextColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/main_color"
+    android:gravity="center_horizontal">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/logo"
+        app:tint="@color/yellow"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watchly"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="12dp" />
+
+    <!-- User Icon -->
+    <TextView
+        android:id="@+id/user_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circle_background_black"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- User Information -->
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="johndoe@example.com"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="12dp"
+        android:text="Logout"
+        android:textColor="@color/main_color"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp" />
+
+</LinearLayout>

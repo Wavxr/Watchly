@@ -1,0 +1,147 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Search Bar -->
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Search Movies..."
+            android:iconifiedByDefault="false"
+            android:background="@drawable/rounded_search_background"
+            android:layout_margin="16dp" />
+
+
+        <!-- Container for Search Results -->
+        <FrameLayout
+            android:id="@+id/search_results_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Carousel RecyclerView -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/carousel_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_marginTop="40dp"
+                android:overScrollMode="never" />
+        </FrameLayout>
+
+        <!-- Top Drama Movies -->
+        <TextView
+            android:id="@+id/top_drama_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Drama Movies"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_drama_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+
+        <!-- Top Action Movies -->
+        <TextView
+            android:id="@+id/top_action_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Action Movies"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_action_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+
+        <!-- Top Comedy Movies -->
+        <TextView
+            android:id="@+id/top_comedy_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Comedy Movies"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_comedy_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+
+        <!-- Top Romance Movies -->
+        <TextView
+            android:id="@+id/top_romance_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Romance Movies"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_romance_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+
+        <!-- Top Horror Movies -->
+        <TextView
+            android:id="@+id/top_horror_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Horror Movies"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_horror_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:overScrollMode="never" />
+    </LinearLayout>
+</ScrollView>
